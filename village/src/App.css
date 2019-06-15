@@ -1,3 +1,30 @@
 .App {
   text-align: center;
+  background-color: rgb(243, 243, 243);
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  padding-top: 20px;
+  width: 25%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+.Smurfs {
+  border: 1px solid rgb(167, 167, 167);
+  border-radius: 15px;
+  width: 40%;
+  margin: 50px auto;
+  background-color: white;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+
+.Smurf {
+  padding: 15px;
 }
